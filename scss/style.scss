@@ -1,0 +1,20 @@
+section{
+     padding: 100px 0;
+}
+
+.js .cd-h-timeline__navigation {
+     position:absolute;
+     z-index:1;
+     top:205%;
+
+     height:34px;
+     width:34px;
+     border-radius:50%;
+     border-width:2px;
+     border-style:solid;
+     border-color:hsl(0, 0%, 87.3%);
+     border-color:hsl(var(--cd-color-3-h), var(--cd-color-3-s), calc(var(--cd-color-3-l)*0.9));
+     transition:border-color 0.3s;
+     margin: 0 -61px;
+     z-index: 9999;
+    }
